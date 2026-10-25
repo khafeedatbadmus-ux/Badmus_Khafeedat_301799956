@@ -4,7 +4,8 @@
 
 ## Case study
 
-My case study is a Bank / Fintech Platform. I designed the database for bank operations analysts, fintech application developers, and database students, with separate tables named customer, account, and payment. It supports these operations: register customers and accounts; record account payments; review payment activity and customer totals.
+My case study models a Bank / Fintech Platform designed for operations analysts, fintech developers, and database students. The relational schema centres on three core entities—customer, account, and payment—and supports customer registration, account creation, payment recording, and review of customer activity and totals.
+
 
 ## Portfolio 1: Database Design and Modelling
 
