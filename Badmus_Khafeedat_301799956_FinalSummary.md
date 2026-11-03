@@ -4,7 +4,7 @@
 
 ## Case study
 
-My case study models a Bank / Fintech Platform designed for operations analysts, fintech developers, and database students. The relational schema centres on three core entities—customer, account, and payment—and supports customer registration, account creation, payment recording, and review of customer activity and totals.
+My case study models a Bank / Fintech Platform designed for operations analysts, fintech developers, and database students. The relational schema centres on three core entities-customer, account, and payment—and supports customer registration, account creation, payment recording, and review of customer activity and totals.
 
 
 ## Portfolio 1: Database Design and Modelling
@@ -23,7 +23,7 @@ I ran four SQL queries against the sample records. The join returned 1 row and i
 
 ## Portfolio 3: Transactions and Concurrency
 
-I used a temporary counter on account to test COMMIT, ROLLBACK, and READ COMMITTED isolation. The uncommitted update remained hidden from the other session, and ROLLBACK restored the earlier committed value. Without locking, two increments left the counter at 2. With SELECT FOR UPDATE, Session B waited for Session A, and the final value was 3. The helper is confined to this exercise; the case's original business fields stay unchanged.
+I used a temporary counter on the account to test COMMIT, ROLLBACK, and READ COMMITTED isolation. The uncommitted update remained hidden from the other session, and ROLLBACK restored the earlier committed value. Without locking, two increments left the counter at 2. With SELECT FOR UPDATE, Session B waited for Session A, and the final value was 3. The helper is confined to this exercise; the case's original business fields stay unchanged.
 
 ## Portfolio 4: NoSQL and Advanced Data Models
 
