@@ -44,7 +44,7 @@ I proposed three MongoDB replica members across separate failure zones. The disc
 
 ## Individual reflection
 
-I kept customer, account, and payment in separate tables so their details could be maintained without repeating them in every related record. A non-null idempotency key may identify at most one payment; null keys are excluded from this uniqueness rule. The constraint tests check this alongside the required values and record links. One issue illustrated by the two-session exercise is that both sessions can read the same value before either update is committed. Locking the row before reading preserves both increments. The index comparison also shows why I need to check the execution plan as well as the final answer: the same result can require different amounts of database work.
+I kept customer, account, and payment in separate tables so I could maintain their details without repeating them in every related record. A non-null idempotency key may identify at most one payment; null keys are excluded from this uniqueness rule. The constraint tests check this alongside the required values and record links. One issue the two-session exercise illustrates is that both sessions can read the same value before either update commits. Locking the row before reading preserves both increments. The index comparison also shows why I need to check the execution plan as well as the final answer: the same result can require different amounts of database work.
 
 ## AI-use declaration
 
