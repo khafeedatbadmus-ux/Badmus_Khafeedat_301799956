@@ -52,12 +52,12 @@ I used GitHub Copilot and the portfolio generator to help prepare the database m
 
 ## References
 
-- [PostgreSQL: constraints](https://www.postgresql.org/docs/17/ddl-constraints.html)
-- [PostgreSQL: EXPLAIN](https://www.postgresql.org/docs/17/using-explain.html)
-- [PostgreSQL: isolation](https://www.postgresql.org/docs/17/transaction-iso.html)
-- [PostgreSQL: row locks](https://www.postgresql.org/docs/17/explicit-locking.html)
-- [MongoDB: data modelling](https://www.mongodb.com/docs/manual/data-modeling/)
-- [MongoDB: replication](https://www.mongodb.com/docs/manual/replication/)
-- [MongoDB: sharding](https://www.mongodb.com/docs/manual/sharding/)
-- [Mermaid: ER diagrams](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
+- [1] PostgreSQL Global Development Group. PostgreSQL 16: Constraints.[PostgreSQL: constraints](https://www.postgresql.org/docs/17/ddl-constraints.html)
+- [2] PostgreSQL Global Development Group. PostgreSQL 16: Using EXPLAIN.[PostgreSQL: EXPLAIN](https://www.postgresql.org/docs/17/using-explain.html)
+- [3] PostgreSQL Global Development Group. PostgreSQL 16: Transaction Isolation.[PostgreSQL: isolation](https://www.postgresql.org/docs/17/transaction-iso.html)
+- [4] PostgreSQL Global Development Group. PostgreSQL 16: Explicit Locking [PostgreSQL: row locks](https://www.postgresql.org/docs/17/explicit-locking.html)
+- [5] MongoDB. Data Modeling in MongoDB. [MongoDB: data modelling](https://www.mongodb.com/docs/manual/data-modeling/)
+- [6] MongoDB. Replication. [MongoDB: replication](https://www.mongodb.com/docs/manual/replication/)
+- [7] MongoDB. Sharding Introduction and Architecture. [MongoDB: sharding](https://www.mongodb.com/docs/manual/sharding/)
+- [8] Mermaid. Entity Relationship Diagrams. [Mermaid: ER diagrams](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
 
