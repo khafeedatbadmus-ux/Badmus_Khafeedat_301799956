@@ -13,7 +13,7 @@ I organised the relational design into 3 tables. Primary keys identify records, 
 
 ![Bank / Fintech Platform ER diagram](images/Badmus_Khafeedat_301799956_ERDiagram.png)
 
-Figure 1. Tables, keys, and relationships. PK: primary key; FK: foreign key; UK: unique value.
+Figure 1. Tables, keys, and relationships. PK: primary key; FK: foreign key; UK: unique key.
 
 <!-- PAGE BREAK -->
 
